@@ -1,0 +1,146 @@
+Received: from AM6P192CA0017.EURP192.PROD.OUTLOOK.COM (2603:10a6:209:83::30)
+ by PA4PR08MB6110.eurprd08.prod.outlook.com (2603:10a6:102:e1::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3477.21; Thu, 15 Oct
+ 2020 17:57:13 +0000
+Received: from VE1EUR03FT044.eop-EUR03.prod.protection.outlook.com
+ (2603:10a6:209:83:cafe::e0) by AM6P192CA0017.outlook.office365.com
+ (2603:10a6:209:83::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3477.20 via Frontend
+ Transport; Thu, 15 Oct 2020 17:57:12 +0000
+Authentication-Results: spf=pass (sender IP is 193.205.80.98)
+ smtp.mailfrom=santannapisa.it; emea.teams.ms; dkim=none (message not signed)
+ header.d=none;emea.teams.ms; dmarc=bestguesspass action=none
+ header.from=santannapisa.it;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of santannapisa.it
+ designates 193.205.80.98 as permitted sender)
+ receiver=protection.outlook.com; client-ip=193.205.80.98;
+ helo=mail.santannapisa.it;
+Received: from mail.santannapisa.it (193.205.80.98) by
+ VE1EUR03FT044.mail.protection.outlook.com (10.152.19.106) with Microsoft SMTP
+ Server id 15.20.3477.21 via Frontend Transport; Thu, 15 Oct 2020 17:57:12
+ +0000
+Received: from mail-ej1-f50.google.com (account u.albanese@santannapisa.it [209.85.218.50] verified)
+  by santannapisa.it (CommuniGate Pro SMTP 6.1.11)
+  with ESMTPSA id 151994261 for a37a31ba.alumni.sssup.it@emea.teams.ms; Thu, 15 Oct 2020 19:57:12 +0200
+Received: by mail-ej1-f50.google.com with SMTP id c22so4937752ejx.0
+        for <a37a31ba.alumni.sssup.it@emea.teams.ms>; Thu, 15 Oct 2020 10:57:12 -0700 (PDT)
+X-Gm-Message-State: AOAM533OfigwLrlpdu78qUnE2voeGHhyfZOg0QLRNYwvoez9sv7KEfT7
+	cRVplGe5ApQorEinGEqyEB5RoTxPy5jnklIUL58=
+X-Google-Smtp-Source: ABdhPJwWLxlfWdWMJun8pmO9yF9U6R6l/cR7u5lJdVFQZVtVfBqiPwT0vLvKRIx9VS0ZCzmmVyIJ9HXrvKwUhdWyA7g=
+X-Received: by 2002:a17:906:3294:: with SMTP id 20mr5622837ejw.322.1602784631770;
+ Thu, 15 Oct 2020 10:57:11 -0700 (PDT)
+MIME-Version: 1.0
+From: Ugo Albanese <ugo.albanese@santannapisa.it>
+Date: Thu, 15 Oct 2020 19:57:00 +0200
+X-Gmail-Original-Message-ID: <CAJnm88M=7Y3QjMnR0J4keSBtof6-Mg6VZun0jPopyQJXwHFhGQ@mail.gmail.com>
+Message-ID: <CAJnm88M=7Y3QjMnR0J4keSBtof6-Mg6VZun0jPopyQJXwHFhGQ@mail.gmail.com>
+Subject: Test email to teams group
+To: General - Brain Inspired Robotics Lab <a37a31ba.alumni.sssup.it@emea.teams.ms>
+Content-Type: multipart/alternative; boundary="000000000000a0d3c505b1b960a5"
+Return-Path: ugo.albanese@santannapisa.it
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 4e5c9c58-9dcc-4d2f-b18e-137c3853062f:0
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Forest-ArrivalHubServer: PA4PR08MB6110.eurprd08.prod.outlook.com
+X-MS-Exchange-Forest-MessageScope: 63ca832d-89b8-4481-95f9-0d2b1f35212d
+X-MS-Office365-Filtering-Correlation-Id: 7a5d7010-de8f-4ca6-5ee5-08d87133be7d
+X-MS-TrafficTypeDiagnostic: PA4PR08MB6110:
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+ AQ0CZW4AAYkBAAAPAAADH4sIAAAAAAAEAK1QwY7TQAx10qRJpp0f4O
+ QTsFJaIWA5cKLASvTAqmrZvXuDSUeajqPMFMGv8XXrAFpO3HY0evLY
+ z+95/GtmzSf2XlprvhxdRL2EiWNaW3Mt6ehCj0kwMrc4eKbIeJLvjO
+ Ql9MpZray56QU3/o4CR7bm86HDD3IazolHPHSOQ6fZvdZo7I64idHF
+ RCFNvY9zptEZ3zvZy50k10Xchphc0glwpSOcxRMezgOPTkbGg5o/24
+ RA1vy/1uJHHmhMJw4J5Rte/eh0TdNf0AV8MHqKm601O/HyrxVvyX/l
+ UeVvHXnGvQuaENw56nsnLb56bc3lmxcvL3W6nYTEExuf77YXLW4T+Z
+ /WXK1O5PxbPK/p72LfRdUnlR9cpLXT9UFeQl1AmcMsg7yAqoJa4xmU
+ c6g0X8JyBkUN5jc2FTSKDdzocwHLBpZKa8A0sHgIDCxU4Q/WExaqoy
+ XtLWGu+lXW5AB5VpQA6t5MHDWq5lBnGTyBXC2WYPN7Ff90/FgCAAA=
+X-MS-Exchange-Forest-IndexAgent: 1 404
+X-MS-Exchange-Forest-EmailMessageHash: 6C3AB6DD
+X-MS-Exchange-Forest-RulesExecuted: PA4PR08MB6110
+X-MS-Oob-TLC-OOBClassifiers: OLM:913;
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+ =?utf-8?B?NUhvTk5iMXdDblR6cUZIQW5oZ28xeUVqdDI5ZnRZZE96dGRVUHZycUpJNnVh?=
+ =?utf-8?B?UWw0UG1pR2Z5b0UrUGY1SmhnQTJSblMrc1NOZjlEd2VkVld6bUwxSldscXBY?=
+ =?utf-8?B?ajcydk8xdDV4RXU5L293SU1jcDZwcmdhOUt0VVRHV3RhTHFreXh6a0U5S1BV?=
+ =?utf-8?B?Q3VQTzZ0TkRmbzUySStQY2Z2aVczM1p4clZ2MDNTWS9BOHdCSXIyZkQ1ZXg4?=
+ =?utf-8?B?aGUxclV6WUI0b2t1aW84VTVCVW0wbEhRNk9TME04RmUxcWNncVRJbElMUHBG?=
+ =?utf-8?B?Z3MrbEVveGcyNS9zS0pEWWNDaTAyUkxxUzJWZlVUVDVDaVozNlVkWkkyVFp2?=
+ =?utf-8?B?L0YwdlovdEVOZll3bTJ1ZUYzUC9tK0xqNjAwQ01oUCtjWVRsYXNuYUFrdWh2?=
+ =?utf-8?B?WlgvdmwybEtiS3Joek5wKzF6MStlMVRQMjdYSVN0Wm9vNTN5ZFl2dU05a1lv?=
+ =?utf-8?B?NmY5YXZqK1ZGako2a3BHak5NNGdaNHArVlVOVzhBaHA3YWxoejdQaE1wOHBX?=
+ =?utf-8?B?dDloL1JwbytTSlBIZXJyZEFJT2F2TXJ0OVorK2NTekF3ZEQwTUhuYVRGS0x2?=
+ =?utf-8?B?eWxmaExnekxXeUdoQUFZSkk0YVFsd21tUDJZeGQzdlJYQTBMUVZ2S1JoeUsr?=
+ =?utf-8?B?RmE0QVRWc0hSaEw2MFNEclBVbWNlT2VyTC9tK0k4ZkdJWUpSTjNvYUEwY0dr?=
+ =?utf-8?B?MU1BR1ByMHFDdmdaQld3Z3RYcmV5ZkJLNWNhRmxSTkFmUk1Kdnl1Q3pDL056?=
+ =?utf-8?B?RGYzWkRlZ082OVJ1NzhYeE8zbmdORzJ3R2F1WGt1ME9UbG55N0hWS21CZzhO?=
+ =?utf-8?B?TjJ6ejZCcW45dERqWEIrWHVMN0Yyc1JUaTRRWm1wVStMMFhoN1phME02cE96?=
+ =?utf-8?B?TG11eVhDTkpPWUFkT2JjbEo5QytlRzVVTk5WSHh6cWd3V1pSYzl3U1FDY0Ft?=
+ =?utf-8?B?L29RanUzNzlKeUFMb29qRUVwbUVzRDczQUVXZ2IrSDBzZ3VUMzVHQVp2VTZq?=
+ =?utf-8?B?eGVTUjhValo1T2w2TDNtcXBHQnl4NUFwQlpFdUNTTHpxL0phZjljdmFqUlVV?=
+ =?utf-8?B?WmJLUnRFOHZFaTNGRUlCa0g3b2gwSEhrRzFhcFdCT0FScnBHL3VOK0xsTERi?=
+ =?utf-8?B?RjVDY2RWQytGWnNpOW81eFNJT3dFWWVoNEtGdDVuZnRHeW9OWE1teGIybk9H?=
+ =?utf-8?B?RStQQnI2eFZuSjFaS3FyL3pFZFNoRVJmNVdEaDhNd2ZqRHVrc0tuc3RZc1JP?=
+ =?utf-8?B?OFZBNlFTTXE2dDBwb2RqOFc1TWZ0ekNYeStnOTNaM203a0RrajBicXI2R2xa?=
+ =?utf-8?B?TDFuTkNLajlsODFXdTlXZnBhTlgvajJMQjBoNEpyZlV6V2ZNTEhCZWFnM29C?=
+ =?utf-8?B?M250dFp6RkpoZHFFNmVLK0lXdE1Gc1lmUDYzd3NXYU5kM2VRVUYxcUdsTlA0?=
+ =?utf-8?B?NUhieDVTaHNDUjhsUlZ5RWg0aWxiN2VLNzRyR29idSsxZzRYU2ZqcTI1RElQ?=
+ =?utf-8?Q?Know3hSjRpcdTkhOXapZgFLtJog?=
+X-Forefront-Antispam-Report:
+ CIP:193.205.80.98;CTRY:IT;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.santannapisa.it;PTR:mail.sssup.it;CAT:NONE;SFS:(5660300002)(1096003)(336012)(8676002)(55446002)(356005)(9686003)(86362001)(81166007)(6666004)(33964004)(26005)(42186006)(44832011)(6916009);DIR:INB;
+X-OriginatorOrg: emea.teams.ms
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 15 Oct 2020 17:57:12.5283
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7a5d7010-de8f-4ca6-5ee5-08d87133be7d
+X-MS-Exchange-CrossTenant-Id: 4e5c9c58-9dcc-4d2f-b18e-137c3853062f
+X-MS-Exchange-CrossTenant-AuthSource:
+ VE1EUR03FT044.eop-EUR03.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PA4PR08MB6110
+
+--000000000000a0d3c505b1b960a5
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+This is a test.
+Nothing to see, please move along.
+
+
+--
+Ugo Albanese
+
+MSc Computer Science
+Research Assistant
+
+------------------------------------------------------------------------
+The BioRobotics Institute - Scuola Superiore Sant'Anna
+Scuola Superiore Sant'Anna, Department of Excellence in Robotics & AI
+Polo Sant'Anna Valdera
+Viale Rinaldo Piaggio, 34
+56025 - Pontedera (PI), Italy
+
+E-mail: u.albanese@santannapisa.it
+
+--000000000000a0d3c505b1b960a5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello,<div><br></div><div>This is a test.</div><div>Nothin=
+g to see, please move along.</div><div><br></div><div><br></div><div><div d=
+ir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><di=
+v dir=3D"ltr"><div><div dir=3D"ltr">--<br>Ugo Albanese<br><br>MSc Computer =
+Science<br>Research Assistant <br><br>-------------------------------------=
+-----------------------------------<br>The BioRobotics Institute - Scuola S=
+uperiore Sant&#39;Anna</div><div dir=3D"ltr">Scuola Superiore Sant&#39;Anna=
+, Department of Excellence in Robotics &amp; AI<br>Polo Sant&#39;Anna Valde=
+ra<br>Viale Rinaldo Piaggio, 34<br>56025 - Pontedera (PI), Italy<br><br>E-m=
+ail: <a href=3D"mailto:u.albanese@santannapisa.it" target=3D"_blank">u.alba=
+nese@santannapisa.it</a></div></div></div></div></div></div>
+
+--000000000000a0d3c505b1b960a5--
