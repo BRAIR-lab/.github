@@ -17,4 +17,6 @@ Cognitive models require the integration of *neurophysiology*, *neuroscience*, *
 
 ### Useful Links
 - [Institutional Page](https://www.santannapisa.it/en/institute/biorobotics/brair-lab)
+- [Linkedin Page](https://www.linkedin.com/in/brairlab/)
+
  
